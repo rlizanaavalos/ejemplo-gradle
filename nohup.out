@@ -1,0 +1,90 @@
+gradle: gradle: Es un directorio
+Exception in thread "DisconnectableInputStream source reader" org.gradle.api.UncheckedIOException: java.io.IOException: Descriptor de archivo erróneo
+	at org.gradle.internal.UncheckedException.throwAsUncheckedException(UncheckedException.java:61)
+	at org.gradle.internal.UncheckedException.throwAsUncheckedException(UncheckedException.java:41)
+	at org.gradle.util.DisconnectableInputStream$1.run(DisconnectableInputStream.java:127)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.io.IOException: Descriptor de archivo erróneo
+	at java.base/java.io.FileInputStream.readBytes(Native Method)
+	at java.base/java.io.FileInputStream.read(FileInputStream.java:279)
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:290)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:351)
+	at org.gradle.util.DisconnectableInputStream$1.run(DisconnectableInputStream.java:98)
+	... 1 more
+> Task :compileJava UP-TO-DATE
+> Task :processResources UP-TO-DATE
+> Task :classes UP-TO-DATE
+
+> Task :bootRun
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.4.RELEASE)
+
+2022-01-19 21:36:31.227  INFO 41638 --- [  restartedMain] c.d.DevOpsUsach2020Application           : Starting DevOpsUsach2020Application on rlizana-desktop with PID 41638 (/home/rlizana/devops-usach/ejemplo-gradle/build/classes/java/main started by rlizana in /home/rlizana/devops-usach/ejemplo-gradle)
+2022-01-19 21:36:31.231  INFO 41638 --- [  restartedMain] c.d.DevOpsUsach2020Application           : No active profile set, falling back to default profiles: default
+2022-01-19 21:36:31.271  INFO 41638 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-19 21:36:31.271  INFO 41638 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-19 21:36:31.778  INFO 41638 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-01-19 21:36:31.785  INFO 41638 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-01-19 21:36:31.785  INFO 41638 --- [  restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2022-01-19 21:36:31.820  INFO 41638 --- [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-01-19 21:36:31.820  INFO 41638 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 549 ms
+2022-01-19 21:36:31.914  INFO 41638 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-01-19 21:36:31.993  INFO 41638 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-01-19 21:36:32.010  INFO 41638 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2022-01-19 21:36:32.018  INFO 41638 --- [  restartedMain] c.d.DevOpsUsach2020Application           : Started DevOpsUsach2020Application in 1.023 seconds (JVM running for 1.328)
+2022-01-19 21:38:57.115  INFO 41638 --- [nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-19 21:38:57.116  INFO 41638 --- [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-01-19 21:38:57.119  INFO 41638 --- [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2022-01-19 21:38:57.135  INFO 41638 --- [nio-8081-exec-1] devops.subnivel.Control                  : Proceso exitoso de prueba
+gradle: gradle: Es un directorio
+gradle: gradle: Es un directorio
+gradle: gradle: Es un directorio
+Exception in thread "DisconnectableInputStream source reader" org.gradle.api.UncheckedIOException: java.io.IOException: Descriptor de archivo erróneo
+	at org.gradle.internal.UncheckedException.throwAsUncheckedException(UncheckedException.java:61)
+	at org.gradle.internal.UncheckedException.throwAsUncheckedException(UncheckedException.java:41)
+	at org.gradle.util.DisconnectableInputStream$1.run(DisconnectableInputStream.java:127)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.io.IOException: Descriptor de archivo erróneo
+	at java.base/java.io.FileInputStream.readBytes(Native Method)
+	at java.base/java.io.FileInputStream.read(FileInputStream.java:279)
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:290)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:351)
+	at org.gradle.util.DisconnectableInputStream$1.run(DisconnectableInputStream.java:98)
+	... 1 more
+> Task :compileJava UP-TO-DATE
+> Task :processResources UP-TO-DATE
+> Task :classes UP-TO-DATE
+
+> Task :bootRun
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.4.RELEASE)
+
+2022-01-19 21:40:47.401  INFO 42526 --- [  restartedMain] c.d.DevOpsUsach2020Application           : Starting DevOpsUsach2020Application on rlizana-desktop with PID 42526 (/home/rlizana/devops-usach/ejemplo-gradle/build/classes/java/main started by rlizana in /home/rlizana/devops-usach/ejemplo-gradle)
+2022-01-19 21:40:47.403  INFO 42526 --- [  restartedMain] c.d.DevOpsUsach2020Application           : No active profile set, falling back to default profiles: default
+2022-01-19 21:40:47.442  INFO 42526 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-19 21:40:47.442  INFO 42526 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-19 21:40:47.956  INFO 42526 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-01-19 21:40:47.963  INFO 42526 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-01-19 21:40:47.963  INFO 42526 --- [  restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2022-01-19 21:40:48.002  INFO 42526 --- [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-01-19 21:40:48.002  INFO 42526 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 560 ms
+2022-01-19 21:40:48.103  INFO 42526 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-01-19 21:40:48.191  INFO 42526 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-01-19 21:40:48.209  INFO 42526 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2022-01-19 21:40:48.218  INFO 42526 --- [  restartedMain] c.d.DevOpsUsach2020Application           : Started DevOpsUsach2020Application in 1.041 seconds (JVM running for 1.327)
+2022-01-19 21:40:49.080  INFO 42526 --- [nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-19 21:40:49.081  INFO 42526 --- [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-01-19 21:40:49.084  INFO 42526 --- [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2022-01-19 21:40:49.099  INFO 42526 --- [nio-8081-exec-1] devops.subnivel.Control                  : Proceso exitoso de prueba
