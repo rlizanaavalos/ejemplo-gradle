@@ -6,7 +6,8 @@ pipeline {
             steps {
                 echo 'Compile'
                 script {
-                    sh './mvnw clean compile -e'
+                    sh 'chmod a+x gradlew'
+                    sh './gradlew build'
                 }
             }
         }
@@ -21,27 +22,11 @@ pipeline {
                 }
             }
         }
-        stage('Test') {
-            steps {
-                echo 'Test'
-                script {
-                    sh './mvnw clean test -e'
-                }
-            }
-        }
-        stage('Package') {
-            steps {
-                echo 'Package'
-                script {
-                    sh './mvnw clean package -e'
-                }
-            }
-        }
         stage('Run') {
             steps {
                 echo 'Run'
                 script {
-                    sh 'nohup bash mvnw spring-boot:run &'
+                    sh 'nohup bash gradlew bootRun &'
                     sleep(30)
                 }
             }
