@@ -88,3 +88,4 @@ Caused by: java.io.IOException: Descriptor de archivo erróneo
 2022-01-19 21:40:49.081  INFO 42526 --- [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2022-01-19 21:40:49.084  INFO 42526 --- [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
 2022-01-19 21:40:49.099  INFO 42526 --- [nio-8081-exec-1] devops.subnivel.Control                  : Proceso exitoso de prueba
+2022-01-19 21:44:36.047  INFO 42526 --- [nio-8081-exec-4] devops.subnivel.Control                  : Proceso exitoso de prueba
