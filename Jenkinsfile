@@ -5,6 +5,7 @@ pipeline {
         stage('Pipeline') {
             steps {
                 script {
+                    print("Pipeline")
                 }
             }
         }
