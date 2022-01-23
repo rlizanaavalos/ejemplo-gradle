@@ -12,8 +12,12 @@ pipeline {
                     print params.buildTool
                     if (params.buildTool == 'gradle') {
                         println 'ejeutar gradle'
+                        def ejecucion = load 'gradle.groovy'
+                        ejecucion.call()
                     } else {
                         println 'ejecutar maven'
+                        def ejecucion = load 'maven.groovy'
+                        ejecucion.call()
                     }
                 }
             }
