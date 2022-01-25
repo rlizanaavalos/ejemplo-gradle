@@ -1,5 +1,9 @@
 pipeline {
     agent any
+    
+    environment {
+        STAGE = ''
+    }
 
     parameters {
         choice choices: ['gradle', 'maven'], name: 'buildTool'
@@ -22,5 +26,15 @@ pipeline {
                 }
             }
         }
+    }
+    post {
+       // only triggered when blue or green sign
+       success {
+            slackSend color: 'good', channel: 'U02MU77P45S', message: "Build Success: Rodrigo Lizana ${env.JOB_NAME} ${params.buildTool} Ejecución exitosa", tokenCredentialId: 'slack-token-devops'
+       }
+       // triggered when red sign
+       failure {
+            slackSend color: 'danger', channel: 'U02MU77P45S', message: "Build Failed: Rodrigo Lizana ${env.JOB_NAME} ${params.buildTool} Ejecución fallida en stage ${STAGE}", tokenCredentialId: 'slack-token-devops'
+       }
     }
 }
