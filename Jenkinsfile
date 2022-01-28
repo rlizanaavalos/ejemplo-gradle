@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Compile') {
             steps {
-                echo 'Compile'
+                echo 'Compile-'
                 script {
                     sh 'chmod a+x gradlew'
                     sh './gradlew build'
