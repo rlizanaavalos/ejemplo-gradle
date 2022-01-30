@@ -1,2 +1,2 @@
-ibrary ('pipeline-devops')
+library ('pipeline-devops')
 ejecucion.call()
